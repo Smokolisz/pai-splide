@@ -3,6 +3,11 @@
     margin:0 auto;
 }
 
+.splide__slide {
+    display: flex;
+    align-items: center;
+}
+
 .splide img {
     margin:0 auto;
     display: block;
