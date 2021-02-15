@@ -1,0 +1,10 @@
+.splide {
+    width:1024px;
+    margin:0 auto;
+}
+
+.splide img {
+    margin:0 auto;
+    display: block;
+    width: 100%;
+}

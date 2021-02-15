@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Splide</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
 </head>
 <body>
     
+    <div id="splide" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src="img/1.jpg">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/2.jpg">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/3.jpeg">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/4.jpg">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/5.jpg">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/6.jpeg">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+    <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+
 </body>
 </html>
